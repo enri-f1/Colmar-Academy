@@ -52,9 +52,13 @@ html {
 }
 
 ul li {
-	padding: 1.5rem;
+	padding: .5rem;
 }
 
+.desktop a:hover {
+	border-bottom: .09rem solid #09AF69;
+	transition: border-bottom .2s linear 0;
+}
 
 
 
