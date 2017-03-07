@@ -10,7 +10,7 @@ html {
 }
 
 
-/*-- Header --*/
+/*-- Header ----------------------------------------------------------*/
 
 .header{
 	display: flex;
@@ -36,10 +36,20 @@ html {
 .logo {
 	display: flex;
 	padding-left: 2rem;
+	font-size: 1.2rem;
+}
+
+.logo img {
+	height: auto;
+	max-width: 4rem;
+	display: block;
 }
 
 .logo h4 {
 	color: #09AF69;
+	border-bottom: .09rem solid #09AF69;
+	text-shadow: 10px 10px 10px lightgrey;
+	padding-left: .7rem;
 }
 
 .logo span {
@@ -52,13 +62,57 @@ html {
 }
 
 ul li {
-	padding: .5rem;
+	padding: .8rem;
 }
 
 .desktop a:hover {
 	border-bottom: .09rem solid #09AF69;
 	transition: border-bottom .2s linear 0;
 }
+
+/* -- Media Queries for Mobile -- */
+
+@media only screen and (max-width: 750px){
+	.nav .desktop {
+		display: none;
+	}
+
+	.nav .mobile {
+		display: inline;
+	}
+
+	.mobile ul {
+		display: flex;
+
+	}
+
+	.mobile ul li {
+		padding: 2rem;
+	}
+}
+
+@media only screen and (max-width: 540px){
+	.nav .desktop {
+		display: none;
+	}
+
+	.nav .mobile {
+		display: inline;
+	}
+
+	.mobile ul {
+		display: flex;
+
+	}
+
+	.mobile ul li {
+		padding: 1.1rem;
+	}
+}
+
+
+
+
 
 
 
