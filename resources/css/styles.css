@@ -10,41 +10,15 @@ html {
 
 /*-- Header --*/
 
-header {
+.header{
 	height: 4rem;
-	font-size: 1rem;
-	font-family: 'Open Sans', sans-serif;
 	background-color: white;
-}
-
-header .content {
 	display: flex;
 	justify-content: space-between;
+
 }
 
-header .logo {
-	display: flex;
-}
-
-header .mobile {
+.mobile {
 	display: none;
 }
-
-@media  only screen and (max-width: 450px){
-	header .desktop {
-		display: none;
-
-	}
-
-	header .mobile {
-		justify-content: space-around;
-
-	}
-}
-
-
-
-
-
-
 
