@@ -3,22 +3,98 @@
 /* -- Universal Styles --*/
 
 html {
-	font-size: 16px;
-	background-color: lightgray;
+	font-size: 18px;
+	background-color: #424949;
+	font-family: 'Open Sans', sans-serif;
+
 }
 
 
 /*-- Header --*/
 
 .header{
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	width: 53.3rem;
 	height: 4rem;
 	background-color: white;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	z-index: 10;
 
 }
+
 
 .mobile {
 	display: none;
 }
+
+.logo {
+	display: flex;
+	padding-left: 2rem;
+}
+
+.logo h4 {
+	color: #09AF69;
+}
+
+.logo span {
+	font-weight: 800;
+}
+
+.desktop ul {
+	display: flex;
+
+}
+
+ul li {
+	padding: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
