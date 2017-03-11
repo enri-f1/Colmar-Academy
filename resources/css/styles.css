@@ -375,7 +375,7 @@ ul li {
 
 	#mobilephoto img {
 		height: auto;
-		width: auto;
+		width: 90%;
 		display: block;
 	}
 
@@ -391,17 +391,18 @@ ul li {
 	.practice .column2 {
 		display: flex;
 		flex-flow: column;
-		width: 42rem;
+		width: 99%;
 	}
 
 	.subcolumn1,
 	.subcolumn2,
 	.subcolumn3 {
 		display: flex;
-		width: 42rem;
+		width: 95%;
 		padding-top:  1rem;
 		padding-bottom: 1rem;
 		margin: 0;
+		background-color: white;
 
 	}
 
