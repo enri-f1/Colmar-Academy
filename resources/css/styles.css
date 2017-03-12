@@ -260,7 +260,6 @@ ul li {
 	height: auto;
 	display: block;
 	padding-bottom: 1.77rem;
-
 }
 
 .column1 h1 {
@@ -295,8 +294,8 @@ ul li {
 	width: 23.5rem;
 	display: flex;
 	align-items: space-between;
-	border-bottom: .5px solid #D8D8D8;
-	border-left: .5px solid #D8D8D8;
+	border-bottom:  1.8px solid #D8D8D8;
+	border-left: 1.8px solid #D8D8D8;
 }
 
 .subcolumn1 #desktopphoto, 
@@ -355,7 +354,7 @@ ul li {
 
 }*/
 
-.subcolumn1,
+
 .subcolumn3 {
 	background-color: #D8D8D8;
 }
@@ -402,12 +401,13 @@ ul li {
 		padding-top:  1rem;
 		padding-bottom: 1rem;
 		margin: 0;
-		background-color: white;
+		/*background-color: white;*/
 
 	}
 
 }
 
+<<<<<<< HEAD
 /* ----- test --- */ 
 
 .subcolum
@@ -448,6 +448,9 @@ ul li {
 
 
 
+=======
+/* ------------------------------------------------ Start Learning Section -- */
+>>>>>>> master
 
 
 
