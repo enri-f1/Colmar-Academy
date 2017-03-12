@@ -409,11 +409,42 @@ ul li {
 
 /* ------------------------------------------------ Start Learning Section -- */
 
+.startlearning {
+	position: relative;
+	display: flex;
+}
 
+.startlearning .container {
+	width: 66.66rem;
+	display: flex;
+	padding-top: 1.77rem;
+	padding-bottom: 1.77rem;
+	background-color: #D8D8D8;
+	flex-flow: column;
+	align-items: center;
+}
 
+.container .row1 {
+	display: flex;
+	width: 95%;
+}
 
+.row1 .card {
+	width: 33%;
+}
 
+.card img {
+	height: auto;
+	width: 90%;
+	display: block;
+}
 
+.startlearning h1 {
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 2.5rem;
+	padding-bottom: 1.33rem;
+}
 
 
 
