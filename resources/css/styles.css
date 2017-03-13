@@ -17,8 +17,6 @@ html {
 .header{
 	display: flex;
 	justify-content: center;
-	
-
 }
 
 .header .container {
@@ -197,8 +195,6 @@ ul li {
 	    color: white;
 	    border-radius: .153rem;
 	    margin-bottom: 1.77rem;
-
-
 	}
 
 	.learn .container {
@@ -230,29 +226,32 @@ ul li {
 	}
 }
 
-/*------------------------------------------------ Practice Section --- */ 
+/*------------------------------------------------ Practice/thesis Section --- */ 
 
-.practice {
+.practice,
+.thesis {
 	position: relative;
 	display: flex;
 	justify-content: center;
-	
+}
+
+.thesis {
+	flex-flow: column;
+	align-items: center;
+}
+
+.thesis h1 {
+	padding-top: 1.33rem;
 }
 
 
-
-.practice .container {
+.practice .container,
+.thesis .container {
 	width: 66.66rem;
-	/*background-color: white;*/
 	display: flex;
 	padding-top: 1.77rem;
 	padding-bottom: 1.77rem;
-	/*background-image: url("https://static.pexels.com/photos/968/sky-clouds-garden-school.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;*/
-	
-
+	border: 1px solid red;
 }
 
 .practice .container .column1 img {
@@ -262,7 +261,16 @@ ul li {
 	padding-bottom: 1.77rem;
 }
 
-.column1 h1 {
+.thesis .container .column1 video {
+	max-width: 87%;
+	height: auto;
+	display: block;
+	padding-bottom: 1.77rem;
+}
+
+
+.column1 h1,
+.thesis h1 {
 	font-size: 2rem;
 	font-weight: 800;
 	line-height: 2.5rem;
@@ -291,9 +299,6 @@ ul li {
 	align-items: space-between;
 	border-bottom:  2px solid #D8D8D8;
 	border-left:  2px solid #D8D8D8;
-	
-	/*border-bottom:  1.8px solid #D8D8D8;
-	border-left: 1.8px solid #D8D8D8;*/
 }
 
 .subcolumn1 #desktopphoto, 
@@ -391,6 +396,7 @@ ul li {
 .startlearning {
 	position: relative;
 	display: flex;
+	justify-content: center;
 }
 
 .startlearning .container {
@@ -410,7 +416,7 @@ ul li {
 	padding-bottom: 1.33rem;
 }
 
-/* --- Row 1 --------------------- */ 
+/* --- Row  --------------------- */ 
 
 .container .row1,
 .container .row2 {
@@ -436,6 +442,7 @@ ul li {
 .card:hover {
 	box-shadow: 10px 10px 10px gray;
 	transition: box-shadow .2s linear 0;
+
 }
 
 .card img {
@@ -470,16 +477,46 @@ ul li {
 	color:  #D8D8D8;
 }
 
+/* -------------------------------------- Thesis Section ------- */
+
+/*.thesis {
+	display: flex;
+	flex-flow: column;
+	position: relative;
+	align-items: center;
+}
+
+.thesis .container {
+	display: flex;
+	width: 66.66rem;
+	padding-bottom: 2.77rem;
+}
+
+.thesis .container video  {
+	max-width: 87%;
+	height: auto;
+	display: block;
+	padding-bottom: 1.77rem;
+}
+
+.thesis h1 {
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 2.5rem;
+	padding-bottom: 1.33rem;
+	padding-top: 1.77rem;
+}
 
 
 
- 
 
-
-
-
-
-
+/*width: 66.66rem;
+	display: flex;
+	padding-top: 1.77rem;
+	padding-bottom: 1.77rem;
+	background-color: #D8D8D8;
+	flex-flow: column;
+	align-items: center;*/
 
 
 
