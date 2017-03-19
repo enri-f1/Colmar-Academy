@@ -307,9 +307,9 @@ ul li {
 	line-height: 1.6rem;
 }
 
-.subcolumn1 span,
-.subcolumn2 span,
-.subcolumn3 span {
+.subcolumn1 span a,
+.subcolumn2 span a,
+.subcolumn3 span a {
 	color: #4E92DF;
 }
 
@@ -418,6 +418,10 @@ ul li {
 	background-color: white;
 }
 
+.card h2 a:hover {
+	color: #09AF69;
+}
+
 .card:hover {
 	box-shadow: 10px 10px 10px gray;
 	transition: box-shadow .2s linear 0;
@@ -516,6 +520,11 @@ ul li {
 .footer p {
 	padding-left: 1.33rem;
 	padding-right: 1.33rem;
+}
+
+.footer a:hover {
+	border-bottom: .09rem solid #09AF69;
+	transition: border-bottom .2s linear 0;
 }
 
 
