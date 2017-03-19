@@ -241,7 +241,8 @@ ul li {
 }
 
 .thesis h1 {
-	padding-top: 1.33rem;
+	padding-top: 1.77rem;
+	padding-bottom: 1.77rem;
 }
 
 
@@ -251,7 +252,7 @@ ul li {
 	display: flex;
 	padding-top: 1.77rem;
 	padding-bottom: 1.77rem;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 
 .practice .container .column1 img {
@@ -266,11 +267,13 @@ ul li {
 	height: auto;
 	display: block;
 	padding-bottom: 1.77rem;
+	padding-left: 1.33rem;
+	padding-right: .88rem;
 }
 
 
 .column1 h1,
-.thesis h1 {
+.thesis  h1 {
 	font-size: 2rem;
 	font-weight: 800;
 	line-height: 2.5rem;
