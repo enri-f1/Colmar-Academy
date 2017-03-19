@@ -226,33 +226,21 @@ ul li {
 	}
 }
 
-/*------------------------------------------------ Practice/thesis Section --- */ 
+/*------------------------------------------------ Practice Section --- */ 
 
-.practice,
-.thesis {
+.practice {
 	position: relative;
 	display: flex;
 	justify-content: center;
 }
 
-.thesis {
-	flex-flow: column;
-	align-items: center;
-}
-
-.thesis h1 {
-	padding-top: 1.77rem;
-	padding-bottom: 1.77rem;
-}
-
-
-.practice .container,
-.thesis .container {
+.practice .container{
 	width: 66.66rem;
 	display: flex;
 	padding-top: 1.77rem;
 	padding-bottom: 1.77rem;
 	/*border: 1px solid red;*/
+
 }
 
 .practice .container .column1 img {
@@ -262,18 +250,7 @@ ul li {
 	padding-bottom: 1.77rem;
 }
 
-.thesis .container .column1 video {
-	max-width: 87%;
-	height: auto;
-	display: block;
-	padding-bottom: 1.77rem;
-	padding-left: 1.33rem;
-	padding-right: .88rem;
-}
-
-
-.column1 h1,
-.thesis  h1 {
+.column1 h1 {
 	font-size: 2rem;
 	font-weight: 800;
 	line-height: 2.5rem;
@@ -425,7 +402,6 @@ ul li {
 .container .row2 {
 	display: flex;
 	width: 85%;
-	/*margin-left: 1rem;*/
 	justify-content: space-between;
 }
 
@@ -480,26 +456,25 @@ ul li {
 	color:  #D8D8D8;
 }
 
-/* -------------------------------------- Thesis Section ------- */
+/* -------------------------------------- Thesis Section  ------*/
 
-/*.thesis {
+.thesis {
 	display: flex;
-	flex-flow: column;
+	justify-content: center;
 	position: relative;
-	align-items: center;
 }
 
 .thesis .container {
-	display: flex;
 	width: 66.66rem;
-	padding-bottom: 2.77rem;
+	display: flex;
+	flex-flow: column;
+	padding-top: 1.77rem;
+	padding-bottom: 1.77rem;
+	align-items: center;
 }
 
-.thesis .container video  {
-	max-width: 87%;
-	height: auto;
-	display: block;
-	padding-bottom: 1.77rem;
+.thesis .container .columncontainer {
+	display: flex;
 }
 
 .thesis h1 {
@@ -507,19 +482,47 @@ ul li {
 	font-weight: 700;
 	line-height: 2.5rem;
 	padding-bottom: 1.33rem;
+}
+
+
+
+.thesis .container .column1 video {
+	max-width: 87%;
+	height: auto;
+	display: block;
+	padding-bottom: 1.77rem;
+
+}
+
+
+/* -------------------------------------- Footer Section ------- */
+
+.footer {
+	display: flex;
+	position: relative;
+	justify-content: center;
+}
+.footer .container {
+	width: 66.66rem;
+	display: flex;
 	padding-top: 1.77rem;
+	padding-bottom: 1.77rem;
+	flex-flow: row;
+	justify-content: space-between;
+	/*align-items: center;*/
+	border-top: 2px solid  #09AF69;
+}
+
+.footer p {
+	padding-left: 1.33rem;
+	padding-right: 1.33rem;
 }
 
 
 
 
-/*width: 66.66rem;
-	display: flex;
-	padding-top: 1.77rem;
-	padding-bottom: 1.77rem;
-	background-color: #D8D8D8;
-	flex-flow: column;
-	align-items: center;*/
+
+
 
 
 
