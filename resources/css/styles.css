@@ -381,7 +381,7 @@ ul li {
 	}
 
 	.startlearning .mobilecontainer p {
-	/*padding: .1875rem 90%;*/
+	padding: .1875rem 35%;
 	background-color: #09AF69;
     line-height: 1.6;
     color: white;
@@ -389,7 +389,7 @@ ul li {
     flex-shrink: 2;
     margin: .7rem;
     font-size: 1.5rem;
-    padding: 1rem;
+    /*padding: 1rem;*/
 }
 
 /*.startb a {
@@ -431,6 +431,8 @@ ul li {
 	
 
 }
+
+/*-------- End of 770px media query. -- */ 
 
 /* ------------------------------------------------ Start Learning Section -- */
 
@@ -571,6 +573,7 @@ ul li {
 	position: relative;
 	justify-content: center;
 }
+
 .footer .container {
 	width: 66.66rem;
 	display: flex;
@@ -591,26 +594,5 @@ ul li {
 	border-bottom: .09rem solid #09AF69;
 	transition: border-bottom .2s linear 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
