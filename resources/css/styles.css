@@ -369,9 +369,74 @@ ul li {
 		margin: 0;
 	}
 
+	/* ------------ Start Learning --*/
+
+	.startlearning .container .row1,
+	.startlearning .container .row2 {
+		display: none;
+	}
+
+	.startlearning .mobilecontainer {
+		display: block;
+	}
+
+	.startlearning .mobilecontainer p {
+	/*padding: .1875rem 90%;*/
+	background-color: #09AF69;
+    line-height: 1.6;
+    color: white;
+    border-radius: .153rem;
+    flex-shrink: 2;
+    margin: .7rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+/*.startb a {
+	color: white;
+	flex-shrink: 5;
+	flex-wrap: wrap;
+
+}*/
+
+
+
+	/* ------ Thesis media query for 770px --*/
+
+	.thesis .container {
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+	}
+
+	.thesis .columncontainer {
+		display: flex;
+		justify-content: center;
+	}
+
+	.thesis .columncontainer .column2,
+	.thesis .columncontainer .column1 h1,
+	 .thesis .columncontainer .column1 p {
+		display: none;
+	}
+
+	.thesis .columncontainer video {
+		height: auto;
+		width: 99%;
+		display: block;
+		padding-left: 1.5rem;
+	}
+
+
+	
+
 }
 
 /* ------------------------------------------------ Start Learning Section -- */
+
+.mobilecontainer {
+	display: none;
+}
 
 .startlearning {
 	position: relative;
